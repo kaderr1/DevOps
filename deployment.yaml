@@ -23,3 +23,4 @@ spec:
         - "/bin/sh"
         - "-c"
         - "echo '<h1 style=\"color: blue; font-size: 24px; text-align: center;\">Merhaba, ben Kader YILDIZ !</h1>' > /usr/local/apache2/htdocs/index.html && httpd-foreground"
+        - "echo '<p style=\"color: blue; font-size: 24px; text-align: center;\">Bu uygulamayı Apache'nin httpd olarak bilinen konteynerini kullanarak yaptım. !</p>' > /usr/local/apache2/htdocs/index.html && httpd-foreground"
