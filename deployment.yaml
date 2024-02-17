@@ -1,9 +1,11 @@
+# httpd-deployment.yaml
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: httpd-deployment
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: httpd
@@ -17,3 +19,7 @@ spec:
         image: httpd:latest
         ports:
         - containerPort: 80
+        args:
+        - "/bin/sh"
+        - "-c"
+        - "echo 'Merhaba, Dünya!' > /usr/local/apache2/htdocs/index.html && httpd-foreground"
