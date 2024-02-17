@@ -22,4 +22,4 @@ spec:
         args:
         - "/bin/sh"
         - "-c"
-        - "echo 'Merhaba, Dünya!' > /usr/local/apache2/htdocs/index.html && httpd-foreground"
+        - "echo '<h1 style=\"color: blue; font-size: 24px; text-align: center;\">Merhaba, ben Kader YILDIZ !</h1>' > /usr/local/apache2/htdocs/index.html && httpd-foreground"
