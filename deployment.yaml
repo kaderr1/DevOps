@@ -20,4 +20,4 @@ spec:
         args:
         - "/bin/sh"
         - "-c"
-        - "echo '<h1 style=\"color: blue; font-size: 24px; text-align: center;\">Merhaba, ben Kader YILDIZ bu uygulamayı Apache'nin HTTPD olarak bilinen konteynerini kullanarak yaptım.</h1>' > /usr/local/apache2/htdocs/index.html && httpd-foreground"
+        - "echo '<h1 style=\"color: blue; font-size: 24px; text-align: center;\">Merhaba, Ben Kader YILDIZ bu benim Httpd konteyner uygulamam!</h1>' > /usr/local/apache2/htdocs/index.html && httpd-foreground"
